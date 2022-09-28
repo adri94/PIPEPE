@@ -7,7 +7,7 @@ The code is an adaptation of existing projects.
 The bill of materials and probably a little tutorial will come later.
 
 
-Install PiOS (with desktop) on your Pi (you can use Raspberry Pi Imager) 
+Start by installing PiOS (with desktop) on your Pi (you can use Raspberry Pi Imager) 
 
 
 1/ Install rclone on the Rpi
