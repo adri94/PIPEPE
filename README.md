@@ -101,9 +101,9 @@ Start by installing PiOS (with desktop) on your Pi (you can use Raspberry Pi Ima
   
    In the Terminal type :
     
-      cd /etc/xdg/
+      cd /etc/xdg/lxsession/LXDE-pi
       
-   Go into lxsession/LXDE-pi folder and type :
+   Then type :
     
       sudo nano autostart 
       
