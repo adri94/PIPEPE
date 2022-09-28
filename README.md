@@ -75,6 +75,8 @@ Start by installing PiOS (with desktop) on your Pi (you can use Raspberry Pi Ima
     
     */5 * * * * /home/pi/get_pictures.sh >/dev/null 2>&1
     
+   Save and exit nano
+    
     
   5/ Now we need to install a pictures displaying program 
   
