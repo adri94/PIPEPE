@@ -71,49 +71,49 @@ Install PiOS (with desktop) on your Pi (you can use Raspberry Pi Imager)
     
   4/ Let's create a "cron job" (automatisation of the synchronisation)  
   
-    In the Terminal type :
+   In the Terminal type :
     
       crontab -e 
       
-    Tap enter to choose "nano" and type the following at the end of the file (sync with dropBox every 5 minutes) :
+   Tap enter to choose "nano" and type the following at the end of the file (sync with dropBox every 5 minutes) :
     
     */5 * * * * /home/pi/get_pictures.sh >/dev/null 2>&1
     
     
   5/ Now we need to install a pictures displaying program 
   
-    In the terminal type :
+   In the terminal type :
     
       sudo apt-get install fbi
       
-    In order to auto start the display we are going to create an auto start script
+   In order to auto start the display we are going to create an auto start script
     
-    In the Terminal type :
+   In the Terminal type :
     
       nano fbi_start.sh
       
-    Copy the content of the fbi_start file then save and quit nano
+   Copy the content of the fbi_start file then save and quit nano
     
-    In the Terminal type :
+   In the Terminal type :
   
       chmod +x fbi_start.sh
       
     
   6/ We want this to start at boot so
   
-    In the Terminal type :
+   In the Terminal type :
     
       cd /etc/xdg/
       
-    Go into lxsession/LXDE-pi folder and type :
+   Go into lxsession/LXDE-pi folder and type :
     
       sudo nano autostart 
       
-    In the opened file type :
+   In the opened file type :
     
       /home/pi/fbi_start.sh 
       
-    Save and quit nano 
+   Save and quit nano 
     
     
   7/ Restart the pi and see if the pictures start showing 
