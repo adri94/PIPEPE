@@ -64,10 +64,6 @@ Start by installing PiOS (with desktop) on your Pi (you can use Raspberry Pi Ima
   
     chmod +x get_pictures.sh
     
-  Then test it by typing :
-  
-    ./get_pictures.sh
-    
     
   4/ Let's create a "cron job" (automatisation of the synchronisation)  
   
