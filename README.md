@@ -31,7 +31,7 @@ Start by installing PiOS (with desktop) on your Pi (you can use Raspberry Pi Ima
   
     choose "n" (New remote)
     write "piPepeCloud" (for name>)
-    choose "9" for the dropBox option (for Storage>)
+    choose "13" for the dropBox option (for Storage>)
     leave client_id and client_secret blank
     choose "no" for advanced config
     choose "yes" for auto config
