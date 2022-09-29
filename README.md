@@ -1,10 +1,16 @@
 # PIPEPE
 
-Why don't we create a cloud sync picture frame displaying some pepe ?
+Why don't we create a cloud sync picture frame displaying some Pepe ?
 
 The code is an adaptation of existing projects. 
 
-The bill of materials and probably a little tutorial will come later.
+Bill of material :
+
+    Picture frame
+    7" touch LCD screen
+    USB right angle cable
+    HDMI right angle cable
+    Raspberry Pi
 
 
 Start by installing PiOS (with desktop) on your Pi (you can use Raspberry Pi Imager) 
