@@ -13,7 +13,7 @@ Bill of material :
     Raspberry Pi
 
 
-Start by installing PiOS (with desktop) on your Pi (you can use Raspberry Pi Imager) 
+Start by installing PiOS (with desktop) on your Pi (you can use Raspberry Pi Imager), create a dropBox account and add the "fakeDrop" shared folder to your account. 
 
 
 1/ Install rclone on the Rpi
@@ -120,7 +120,7 @@ Start by installing PiOS (with desktop) on your Pi (you can use Raspberry Pi Ima
    Save and quit nano 
     
     
-  7/ Restart the pi and see if the pictures start showing 
+  7/ Restart the pi and see if the pictures start showing (it might take a minute to start) 
     
       
       
