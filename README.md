@@ -2,7 +2,7 @@
 
 Why don't we create a cloud sync picture frame displaying some Pepe ?
 
-The code is an adaptation of existing projects. 
+This is an adaptation of existing projects. 
 
 Bill of material :
 
